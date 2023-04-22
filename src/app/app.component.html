@@ -1,0 +1,7 @@
+<button (click)="openPopup()">Popup</button>
+
+<app-popup
+  *ngIf="popup"
+  (closePopup)="closePopup()"
+  >
+</app-popup>

@@ -1,0 +1,36 @@
+.pop-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    width: 400px;
+    height: 212px;
+    padding: 24px;
+    overflow: auto;
+}
+
+.config {
+    background: rgb(38, 38, 54);
+    border-radius: 4px;
+    color: white;
+
+    &__name {
+        font-size: 14px;
+    }
+
+    &__description {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+}
